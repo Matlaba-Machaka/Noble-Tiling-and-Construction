@@ -102,62 +102,50 @@ h1, h2, h3, h5 {
 
 /* Header */
 .navbar-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: var(--base) !important;
-    }
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--base) !important;
+}
 
-    .navbar-brand span {
-      color: var(--accent);
-    }
+.navbar-brand span {
+  color: var(--accent);
+}
 
-    .navbar-dark .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(244, 162, 97, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(244, 162, 97, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
-    .text-bg-dark {
-      background: var(--primary) !important;
-    }
+.text-bg-dark {
+  background: var(--primary) !important;
+}
 
-    .navbar-nav .nav-link {
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.9rem;
-      color: var(--base) !important;
-      transition: var(--transition);
-    }
+.navbar-nav .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--base) !important;
+  transition: var(--transition);
+}
 
-    .navbar-nav .nav-link:hover,
-    .navbar-nav .nav-link.active {
-      color: var(--accent) !important;
-    }
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
 
-    .btn-quote {
-      background: var(--gradient);
-      color: var(--base) !important;
-      padding: 10px 25px;
-      border-radius: 25px;
-      font-weight: 700;
-      text-transform: uppercase;
-      transition: var(--transition);
-    }
+.btn-quote {
+  background: var(--gradient);
+  color: var(--base) !important;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
 
-    .btn-quote:hover {
-      transform: scale(1.05);
-      box-shadow: 0 5px 15px rgba(244, 162, 97, 0.4);
-    }
-
-    /* Ensure navbar responsiveness */
-    @media (max-width: 991.98px) {
-      .navbar-nav {
-        text-align: center;
-      }
-      .btn-quote {
-        margin: 10px auto;
-        display: block;
-        width: fit-content;
-      }
-    } 
+.btn-quote:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(244, 162, 97, 0.4);
+}
 
 /* Carousel */
 .carousel-overlay {
